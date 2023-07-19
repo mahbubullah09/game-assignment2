@@ -28,6 +28,7 @@ max-height: 100px;
     border: white;
     color: white;
     margin-top: 15px;
+    cursor: pointer;
 }
 
 .p-color {
@@ -57,6 +58,7 @@ max-height: 100px;
     padding-left: 70px;
     display: flex;
     align-items: center;
+   
 
 
 
@@ -107,7 +109,7 @@ max-height: 100px;
 .navigation {
     display: flex;
     justify-content: space-between;
-    height: 70px;
+    height: 100%;
 
 
     background: #FFF;
@@ -451,7 +453,7 @@ max-height: 100px;
     
 }
 #footer{
-    width: 100%;
+    max-width: 1400px;
     height: 350px;
     background: #111111;
     color: #ffffff;
