@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.bg-p {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+
+}
+
+.bg-s {
+
+    background: #4EC5F7;
+}
+
+.btn-p {
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: white;
+    color: white;
+    margin-top: 15px;
+}
+
+.p-color {
+
+    color: rgb(230, 19, 117);
+
+}
+
+.g-color {
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.nav-left {
+    padding-left: 70px;
+
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+
+    display: flex;
+    align-items: center;
+
+
+
+
+}
+
+.nav-left>i {
+    margin-right: 20px;
+
+
+}
+
+.nav-icon-box {
+    display: flex;
+    justify-content: space-around;
+
+    gap: 10px;
+    width: 180px;
+    height: 30px;
+
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+
+
+
+}
+
+.nav-icon-box-content {
+    margin: auto;
+    display: flex;
+    justify-content: grid;
+    gap: 15px;
+
+
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: grid;
+    gap: 15px;
+    margin-right: 60px;
+
+
+
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+
+
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
+
+}
+
+/* bannetr section */
+
+.banner {
+
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFF;
+    max-width: 1440px;
+    margin: 20px auto 0;
+}
+
+.banner-left {
+
+    padding-left: 70px;
+    margin: auto;
+    width: 100%;
+}
+
+.banner-left h3 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+
+.banner-left h2 {
+
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.banner-left p {
+
+    padding-bottom: 10px;
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.banner-right {
+    margin: auto;
+    width: 100%;
+    padding-right: 70px;
+}
+
+.banner-right img {
+    width: 100%;
+}
+
+
+/* online-game-section */
+
+#online-game {
+    margin-right: 30px;
+
+    max-width: 1400px;
+    margin: 40px auto;
+    text-align: center;
+
+
+
+}
+
+.box-cont {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+
+
+
+
+}
+
+
+.card {
+    margin: 40px auto;
+    width: 200px;
+    height: 200px;
+
+
+
+
+}
+
+.card p {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 10px;
+    text-align: left;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+
+
+}
+
+.online-header {
+    margin-top: 50px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.online-text {
+    color: #534C64;
+    margin-top: 15px;
+    text-align: center;
+
+
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+}
+
+
+
+/* section play-instant */
+
+
+#play-instant {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    max-width: 1400px;
+
+
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.left-side {
+
+    padding-left: 300px;
+    width: 40%;
+}
+
+.p-header {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    width: 180px;
+    text-align: right;
+}
+
+.p-text {
+    color: #534C64;
+
+
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    width: 180px;
+    text-align: right;
+}
+
+
+.right-site {
+    width: 50%;
+
+    position: relative;
+
+
+
+
+}
+
+
+
+
+
+.right-site img {
+
+
+
+    width: 80%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.absulate img {
+    max-width: 160px;
+    max-height: 170px;
+    position: absolute;
+    bottom: -35px;
+    left: -25px;
+
+
+}
+
+
+
+
+/* play-instant section */
+
+
+
+.single-game :hover  {
+    border: 1px solid #F948B2;
+    border-radius: 50px;
+    padding: 5px;
+
+    
+}
+.top-game :hover  {
+    border: 1px solid #ffffff;
+    
+}
+.single-game img:hover   {
+    border: 1px solid #fff9fd;
+   
+    
+}
+
+.games-container{
+
+ 
+    min-height:200px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+   
+     
+}
+
+.single-game{
+    border-radius: 60px;
+    padding: 5px;
+
+    border: 1px solid white;
+    border-radius: 50px;
+   
+    
+    width: 200px;
+
+    background: #FFF; 
+    cursor: pointer;
+
+   
+    
+  
+}
+.single-game img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    
+    
+
+}
+.top-game{
+
+    display: flex;
+    align-items: center;
+   
+    
+}
+#footer{
+    width: 100%;
+    height: 300px;
+    background: #111111;
+    color: #ffffff;
+}
+
+ .footer-content{
+    margin: auto;
+   
+    padding-top: 100px;
+    text-align: center;
+   
+    padding-top: 60px;
+
+
+   
+}
+
+.footer-logo{
+ 
+    padding-top: 20px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+margin-bottom: 15px;
+ 
+  
+
+}
+
+.footer-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom:20px ;
+    font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: normal; 
+}
+
+.footer-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom:20px ;
+    font-size:30px;
+    font-style: normal;
+font-weight: 600;
+line-height: normal; 
+}
+
+.footer-text-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom:20px ;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.60); 
+font-style: normal;
+font-weight: 500;
+line-height: normal; 
+}
+.footer-content{
+
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal; 
+margin-bottom: 15px;
+}
