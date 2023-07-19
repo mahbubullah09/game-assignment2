@@ -5,6 +5,13 @@
 
 }
 
+.icon{
+    
+
+max-width:100px;
+max-height: 100px; 
+}
+
 .bg-p {
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 
@@ -36,17 +43,18 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-
-.nav-left {
-    padding-left: 70px;
-
-    font-size: 30px;
+.nav-left p{
+    
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 
+}
 
+
+.nav-left {
+    padding-left: 70px;
     display: flex;
     align-items: center;
 
@@ -182,10 +190,58 @@
 
 }
 
+    
+
+
+.card {
+    position: relative;
+   
+  }
+  
+ .card img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+   
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .card:hover img {
+    opacity: 0.3;
+    cursor: pointer;
+    border: 2px solid rgb(230, 19, 117); ;
+  }
+  
+  .card:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+
+    color: rgb(230, 19, 117);
+
+    font-size: 16px;
+   
+  }
+
 .box-cont {
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+
 
 
 
@@ -198,6 +254,7 @@
     margin: 40px auto;
     width: 200px;
     height: 200px;
+   
 
 
 
@@ -205,6 +262,7 @@
 }
 
 .card p {
+    margin-top: 10px;
     font-size: 10px;
     font-style: normal;
     font-weight: 500;
@@ -332,6 +390,7 @@
     border: 1px solid #F948B2;
     border-radius: 50px;
     padding: 5px;
+    color: #F948B2;
 
     
 }
@@ -393,7 +452,7 @@
 }
 #footer{
     width: 100%;
-    height: 300px;
+    height: 350px;
     background: #111111;
     color: #ffffff;
 }
@@ -409,20 +468,27 @@
 
    
 }
-
 .footer-logo{
- 
     padding-top: 20px;
-   
     display: flex;
-    align-items: center;
     justify-content: center;
+ align-items: center;
     gap: 20px;
-    font-size: 30px;
-font-style: normal;
-font-weight: 700;
-line-height: normal; 
-margin-bottom: 15px;
+    margin-bottom: 25px;
+    cursor: pointer;
+
+}
+
+.footer-logo p{
+ 
+
+   
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+
  
   
 
@@ -438,6 +504,7 @@ margin-bottom: 15px;
 font-style: normal;
 font-weight: 600;
 line-height: normal; 
+cursor: pointer;
 }
 
 .footer-social{
@@ -450,6 +517,7 @@ line-height: normal;
     font-style: normal;
 font-weight: 600;
 line-height: normal; 
+cursor: pointer;
 }
 
 .footer-text-2{
@@ -463,6 +531,7 @@ line-height: normal;
 font-style: normal;
 font-weight: 500;
 line-height: normal; 
+cursor: pointer;
 }
 .footer-content{
 
